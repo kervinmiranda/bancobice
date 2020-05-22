@@ -1,0 +1,22 @@
+<h2>Historical</h2>
+
+<div style="display: block;" class="chart-wrapper">
+  <canvas baseChart width="1200" height="350"
+    [datasets]="lineChartData"
+    [labels]="lineChartLabels"
+    [options]="lineChartOptions"
+    [colors]="lineChartColors"
+    [legend]="lineChartLegend"
+    [chartType]="lineChartType"
+    [plugins]="lineChartPlugins">
+  </canvas>
+</div>
+
+<!-- Highlight Card -->
+<div class="card-container"> 
+  <a href="/">
+      <div class="card highlight-card card-small">
+          <span>Back to home</span>       
+      </div>
+  </a>
+</div>

@@ -1,0 +1,12 @@
+@import "../../app.component.css";
+
+.not-found-title{
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #3d405c;
+    margin: 0px 0px 15px 0px;
+    font-family: 'Circular Std Book';
+    font-style: normal;
+    text-align: center!important;
+}
